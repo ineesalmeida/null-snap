@@ -1,0 +1,10 @@
+name: cjwatson-null
+version: "0.1"
+summary: Null snap for testing
+description:
+  This snap exists to help me test Launchpad's upload machinery.
+base: core20
+
+parts:
+  cjwatson-null:
+    plugin: nil
