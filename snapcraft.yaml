@@ -4,9 +4,7 @@ summary: Null snap for testing
 description:
   This snap exists to help me test Launchpad's upload machinery.
 base: core18
-apps:
-  cjwatson-null:
-    command: bin/sleep.sh
 parts:
   cjwatson-null:
     plugin: nil
+    override-build: sleep 3600
