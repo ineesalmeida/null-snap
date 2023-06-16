@@ -7,5 +7,5 @@ base: core18
 parts:
   cjwatson-null:
     plugin: nil
-    override-build: sleep 3600
+    override-build: sleep 7200
     source: https://commondatastorage.googleapis.com/chromium-browser-official/chromium-114.0.5735.90.tar.xz
